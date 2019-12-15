@@ -25,7 +25,7 @@ let iFruit2 = document.body.querySelector("#grid2");
 
 let winst=-0;
 let teller = -0;
-let maxTeller = 15;
+let maxTeller = 39;
 
 function Rekenen(){
 randomGenerator = Math.floor(Math.random()*2);
@@ -65,8 +65,6 @@ function jijbentEenWinnaar()
     winst+=1;
     maxTeller-1;
     win.innerHTML="Winst: u heeft: u heeft " + "<b>"+winst+"</b>"+" keer gewonnen";
-    verlies.innerHTML="";
-  }else{ verlies.innerHTML=" Ha! probeer opnieuw?"; }
-
+  }
   gameStatus();
 }
