@@ -1,14 +1,23 @@
 body
 {
   background-color:green;
-  margin:0;  padding: 0;
+  margin:0; padding: 0;
   width: 100vw;
   height:auto;
+  font-size:16px;
 }
 
 #wrapper > h2{
 font-size:100px;
+text-align: center;
+}
 
+b{
+font-size: 2em;
+}
+
+div{
+font-size: 3em;
 }
 #wrapper
 {
@@ -46,11 +55,11 @@ background-color:blue;
 
 #grid3
 {
-
+grid-column: 3/5;
 }
 
 input[type="button"]
 {
 border-radius: 50px;
-padding:25%; width:inherit;grid-column:2/6;
+ width:inherit;grid-column:2/6;
 }
